@@ -159,8 +159,7 @@ async def channel_receive_handler(bot, broadcast):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("Watch Online 👨🏻‍💻", url=stream_link)],
-                     [InlineKeyboardButton('Direct Downld 📥', url=online_link)],
-                     [InlineKeyboardButton('Request Movie 🙋🏻‍♂️', url=t.me/DotexRequest)] 
+                     [InlineKeyboardButton('Direct Downld 📥', url=online_link)] 
                 ]
             )
         )
